@@ -3,6 +3,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+import introImg from '../images/lemonTea.png'
 
 const BannerSectionOne = () => {
     return (
@@ -13,20 +14,11 @@ const BannerSectionOne = () => {
                 <div className="container">
 
                     <div className="row">
-                        <div className="col-md-6 ">
-
-
+                        <div className="col-md-6">
                             <div className='text-start'>
-
-
                                 <h1 className='mb-3'>Sereni Tea Hills - Tea for Your Peaceful Moments</h1>
-
-
-
                                 <div className="col-10 text-start">  <h6> Discover the finest teas, handpicked from lush hills, and delivered to your doorstep. <br /> Indulge in a serene tea experience with every sip. Enjoy the perfect blend of flavor and tranquility from SereniTea Hills.</h6>
                                 </div>
-
-
                                 <button className='bannnerBtn'>
                                     Buy Now
                                 </button>
@@ -37,7 +29,7 @@ const BannerSectionOne = () => {
                         </div>
 
                         <div className="col-md-6">
-                            <img src="../images/lemonTea.png" alt="" className='img-fluid' />
+                            <img src={introImg} alt="" className='img-fluid' />
                         </div>
                     </div>
 
@@ -58,4 +50,4 @@ const BannerSectionOne = () => {
     )
 }
 
-export default BannerSectionOne
+export default BannerSectionOne;

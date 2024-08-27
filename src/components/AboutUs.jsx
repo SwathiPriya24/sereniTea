@@ -1,7 +1,8 @@
 import React from 'react'
 // import aboutusimg from '../images/aboutusimg2.png'
-import aboutusimg from '../images/factory-bg.png'
+import aboutusimg from '../images/tealogo.png'
 import abtimgone from '../images/ourStry.jpg'
+import introImg from '../images/lemonTea.png'
 // import abtimgone from '../images/abtimg1.png'
 const AboutUs = () => {
     return (

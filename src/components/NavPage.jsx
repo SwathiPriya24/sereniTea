@@ -8,6 +8,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { CgMenuLeftAlt } from "react-icons/cg";
 import { Link } from 'react-router-dom'
 import { RiShoppingBag4Line } from "react-icons/ri";
+import logot from "../images/logotea.png"
 
 
 
@@ -24,7 +25,7 @@ export default function NavPage() {
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container fluid className='py-2'>
                     <Navbar.Brand href="#">
-                        <Link to='/'> LOGO</Link>
+                        <Link to='/'> <img className='logot' src={logot} alt="" /> </Link>
                     </Navbar.Brand>
                     <span className="d-flex navCartLeft">
                         <Nav.Link href="#action1" className='cart d-flex align-items-center'>
@@ -42,7 +43,7 @@ export default function NavPage() {
 
                         <Nav className="me-auto my-2 my-lg-0 navBarCenter" navbarScroll>
                             <Nav.Link href="#action1">
-                                <Link to='/home'>  Home</Link>
+                                <Link to='/'>  Home</Link>
                             </Nav.Link>
                           
                             <Nav.Link href="#action2">

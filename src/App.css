@@ -470,9 +470,8 @@ li {
   align-items: center;
 }
 
-.blogSection,
-.aboutUs {
-  padding-top: 165px;
+.blogSection {
+  padding-top: 120px;
   padding-bottom: 50PX;
 }
 
@@ -1322,4 +1321,7 @@ border: 2px solid var(--primary-color);
   border-radius: 10px;
   text-align: center;
  
+}
+.logot{
+height: 40px !important;
 }

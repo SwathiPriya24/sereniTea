@@ -13,7 +13,15 @@ import Blogs from './Blogs'
 import ForgotPasswordForm from './ForgotPasswordForm';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap.min.js'
-import ContactUs from './ContactUs.jsx'
+import ContactUs from './ContactUs.jsx';
+import bt from "../images/Black-Tea-.webp";
+import gt from "../images/Greentea.png";
+import wt from "../images/WTEA.jpg";
+import ot from "../images/oolong tea.webp";
+import ct from "../images/cardamom-tea.webp";
+import cht from "../images/chamomile-tea.webp";
+import ht from "../images/hibiscusteaaa.jpeg";
+import cot from "../images/chocolatehd.png";
 
 const Maincontent = () => {
 
@@ -21,25 +29,25 @@ const Maincontent = () => {
     const [cart, setCart] = useState([]);
 
     const [initialProducts, setInitialCart] = useState([
-        { id: 1, name: "Black Tea ", grm:'100gm', price: 145, quantity: 0, img: '../images/blackTea.jpg' },
-        { id: 2, name: "Black Tea ", grm:'100gm',  price: 290, quantity: 0, img: '../images/blackTea.jpg' },
-        { id: 3, name: "Black Tea ",  grm:'100gm', price: 580, quantity: 0, img: '../images/blackTea.jpg' },
-        { id: 4, name: "Green Tea ", grm:'100gm',  price: 190, quantity: 0, img: '../images/Greentea.png' },
-        { id: 5, name: "Green Tea ",  grm:'100gm', price: 380, quantity: 0, img: '../images/Greentea.png' },
-        { id: 6, name: "Green Tea ", price: 760, quantity: 0, img: '../images/Greentea.png' },
-        { id: 7, name: "White Tea ", grm:'100gm',  price: 780, quantity: 0, img: '../images/WTEA.jpg' },
-        { id: 8, name: "White Tea ",  grm:'100gm', price: 1560, quantity: 0, img: '../images/WTEA.jpg' },
-        { id: 9, name: "Oolong Tea ", grm:'100gm',  price: 780, quantity: 0, img: '../images/oolong tea.webp' },
-        { id: 10, name: "Oolong Tea ", grm:'100gm',  price: 1560, quantity: 0, img: '../images/oolong tea.webp' },
-        { id: 11, name: "Serenity Spice Symphony ",  grm:'100gm', price: 780, quantity: 0, img: '../images/cardamom-tea.webp' },
-        { id: 12, name: "Serenity Spice Symphony ", grm:'100gm',  price: 1560, quantity: 0, img: '../images/cardamom-tea.webp' },
-     
-        { id: 13, name: "Soothing Chamomile ",  grm:'100gm', price: 1560, quantity: 0, img: '../images/chamomile-tea.webp' },
-        { id: 14, name: "Soothing Chamomile ",  grm:'100gm', price: 1560, quantity: 0, img: '../images/chamomile-tea.webp' },
-        { id: 15, name: "Hibiscus Dream ",  grm:'100gm', price: 780, quantity: 0, img: '../images/hibiscusteaaa.jpeg' },
-        { id: 16, name: "Hibiscus Dream ", grm:'100gm',  price: 1560, quantity: 0, img: '../images/hibiscusteaaa.jpeg' },
-       { id: 19, name: "Homemade chocolate ",  grm:'100gm',  price: 750, quantity: 0, img: '../images/chocolatehd.png' },
-        { id: 20, name: "Homemade chocolate ", grm:'100gm',   price: 750, quantity: 0, img: '../images/chocolatehd.png' },
+        { id: 1, name: "Black Tea ", grm: '100gm', price: 145, quantity: 0, img:  bt },
+        { id: 2, name: "Black Tea ", grm: '250gm', price: 290, quantity: 0, img: bt },
+        { id: 3, name: "Black Tea ", grm: '500gm', price: 580, quantity: 0, img: bt },
+        { id: 4, name: "Green Tea ", grm: '100gm', price: 190, quantity: 0, img:  gt  },
+        { id: 5, name: "Green Tea ", grm: '250gm', price: 380, quantity: 0, img: gt },
+        { id: 6, name: "Green Tea ", grm: '500gm', price: 760, quantity: 0, img: gt },
+        { id: 7, name: "White Tea ", grm: '100gm', price: 780, quantity: 0, img: wt},
+        { id: 8, name: "White Tea ", grm: '250gm', price: 1560, quantity: 0, img: wt },
+        { id: 9, name: "Oolong Tea ", grm: '100gm', price: 780, quantity: 0, img:ot},
+        { id: 10, name: "Oolong Tea ", grm: '500gm', price: 1560, quantity: 0, img: ot },
+        { id: 11, name: "Serenity Spice Symphony ", grm: '100gm', price: 780, quantity: 0, img: ct },
+        { id: 12, name: "Serenity Spice Symphony ", grm: '500gm', price: 1560, quantity: 0, img: ct },
+
+        { id: 13, name: "Soothing Chamomile ", grm: '100gm', price: 1560, quantity: 0, img: cht },
+        { id: 14, name: "Soothing Chamomile ", grm: '500gm', price: 1560, quantity: 0, img: cht },
+        { id: 15, name: "Hibiscus Dream ", grm: '100gm', price: 780, quantity: 0, img: ht },
+        { id: 16, name: "Hibiscus Dream ", grm: '500gm', price: 1560, quantity: 0, img: ht },
+        { id: 19, name: "Homemade chocolate ", grm: '100gm', price: 750, quantity: 0, img: cot },
+        { id: 20, name: "Homemade chocolate ", grm: '500gm', price: 750, quantity: 0, img: cot },
 
 
     ]);
@@ -110,37 +118,37 @@ const Maincontent = () => {
             {/* <div className="contentSec"> */}
 
 
-                <Routes>
-                    <Route path='/' element={< HomePage />}></Route>
-                    <Route path="shopnow" element={
-                        <ShopCard
-                            addToCart={addToCart}
-                            removeFromCart={removeFromCart}
+            <Routes>
+                <Route path='/' element={< HomePage />}></Route>
+                <Route path="shopnow" element={
+                    <ShopCard
+                        addToCart={addToCart}
+                        removeFromCart={removeFromCart}
 
 
-                            cart={cart} initialProducts={initialProducts}
-                        />}
-                    />
-                    <Route path="/cart" element={
-                        <Cart
-                            cart={cart}
-                            calculateTotalPrice={calculateTotalPrice} removeFromCart={removeFromCart}
-                        />}
-                    />
+                        cart={cart} initialProducts={initialProducts}
+                    />}
+                />
+                <Route path="/cart" element={
+                    <Cart
+                        cart={cart}
+                        calculateTotalPrice={calculateTotalPrice} removeFromCart={removeFromCart}
+                    />}
+                />
 
-                    <Route path='/Login' element={<Login />}></Route>
+                <Route path='/Login' element={<Login />}></Route>
 
-                    <Route path='/home' element={<  HomePage />}></Route>
-                    <Route path='/aboutus' element={<AboutUs />}></Route>
-                    <Route path='/ourteas' element={<OurTeas />}></Route>
-                    <Route path='/contact' element={<ContactUs/>}></Route>
-                    <Route path='/blog' element={<Blogs />}></Route>
-                    <Route path='/forgot-password' element={<ForgotPasswordForm />}></Route>
+                <Route path='/' element={<  HomePage />}></Route>
+                <Route path='/aboutus' element={<AboutUs />}></Route>
+                <Route path='/ourteas' element={<OurTeas />}></Route>
+                <Route path='/contact' element={<ContactUs />}></Route>
+                <Route path='/blog' element={<Blogs />}></Route>
+                <Route path='/forgot-password' element={<ForgotPasswordForm />}></Route>
 
-                </Routes>
+            </Routes>
             {/* </div> */}
             {/* <Footer /> */}
-            <FooterBar/>
+            <FooterBar />
 
         </>
     )

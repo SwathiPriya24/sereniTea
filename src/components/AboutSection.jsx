@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutimg from "../images/aboutimg.png"
+import aboutimg from "../images/aboutusimg2.png"
+
 import { Link } from 'react-router-dom'
 
 function AboutSection() {
@@ -14,7 +15,7 @@ function AboutSection() {
 
 
                     <div className="row">
-                        <div className="col-md-6"><img src="./images/aboutUsImg.jpg" alt="" className='img-fluid aboutUsImgLeft' /></div>
+                        <div className="col-md-6"><img src={aboutimg} alt="" className='img-fluid aboutUsImgLeft' /></div>
 
 
 
