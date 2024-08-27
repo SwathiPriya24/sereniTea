@@ -11,7 +11,7 @@ const AboutUs = () => {
                 <div className="container-fluid">
                     {/* <h2 className='abtpgimg'>ABOUT US</h2> */}
                     <div className="abtpgimg"></div>
-                </div>
+                </div>``````````````
                 <div className='container'>
 
 

@@ -111,15 +111,12 @@ const Maincontent = () => {
 
     return (
         <>
-            {/* <div className="container"> */}
-
 
             <NavPage />
-            {/* <div className="contentSec"> */}
-
 
             <Routes>
-                <Route path='/' element={< HomePage />}></Route>
+                 <Route path='/' element={< HomePage />}/>
+                 <Route path='/sereniTea' element={< HomePage />}/>
                 <Route path="shopnow" element={
                     <ShopCard
                         addToCart={addToCart}
@@ -137,8 +134,6 @@ const Maincontent = () => {
                 />
 
                 <Route path='/Login' element={<Login />}></Route>
-
-                <Route path='/' element={<  HomePage />}></Route>
                 <Route path='/aboutus' element={<AboutUs />}></Route>
                 <Route path='/ourteas' element={<OurTeas />}></Route>
                 <Route path='/contact' element={<ContactUs />}></Route>
@@ -146,8 +141,6 @@ const Maincontent = () => {
                 <Route path='/forgot-password' element={<ForgotPasswordForm />}></Route>
 
             </Routes>
-            {/* </div> */}
-            {/* <Footer /> */}
             <FooterBar />
 
         </>
