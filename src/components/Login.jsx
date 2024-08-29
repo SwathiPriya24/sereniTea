@@ -23,8 +23,8 @@ const Login = () => {
     setPassword(e.target.value);
   };
   return (
-    <div className=" container login pt-4">
-      <div className="login-container py-2">
+    <div className="login  pt-4">
+      <div className="login-container py-4">
 
         <form onSubmit={handleLogin}>
           <h2 className='conthead text-center py-4'>Login to your Account</h2>

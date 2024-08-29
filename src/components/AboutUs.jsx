@@ -11,7 +11,7 @@ const AboutUs = () => {
                 <div className="container-fluid">
                     {/* <h2 className='abtpgimg'>ABOUT US</h2> */}
                     <div className="abtpgimg"></div>
-                </div>``````````````
+                </div>
                 <div className='container'>
 
 
@@ -42,7 +42,7 @@ const AboutUs = () => {
                         <div className="col-md-6 order-md-2 text-start">
 
                             <ul className='tea-products'>
-                                <li>  Over a period of years the company has modernized the factories which has resulted in increased tea production. Both the factories manufacture high quality High Grown Orthodox Black and Specialty Teas and Welbeck produces certified Organic and Green Teas.
+                                <li>  Over a period of years the company has modernized the factories which has resulted in increased tea production. Both the factories manufacture high quality High Grown Orthodox Black and Specialty Teas and we produce certified Organic and Green Teas.
 
                                 </li>
                                 <li>   Our mission goes beyond delivering exceptional teas; it's about fostering moments of tranquility and mindfulness in your daily life. Whether you're seeking a comforting brew to start your morning, a refreshing iced tea for a sunny afternoon, or a soothing blend to unwind in the evening, Serenity Hills offers a curated selection to suit every palate and occasion. <br />
@@ -72,7 +72,7 @@ const AboutUs = () => {
 
 
                                 <ul>
-                                    <li>At Serenity Hills, quality is paramount in everything we do. We are dedicated to sourcing the finest tea leaves from around the world, selecting only those that meet our stringent standards for flavor, aroma, and freshness.</li>
+                                    <li>At Serenity Hills, quality is paramount in everything we do. We are dedicated to sourcing the finest tea leaves from around the Nilgiris, selecting only those that meet our stringent standards for flavor, aroma, and freshness.</li>
                                     <li>Our teas undergo rigorous quality control processes at every stage of production, from cultivation to packaging. We prioritize sustainability and ethical sourcing practices, ensuring that each cup of Serenity Hills tea delights the senses and upholds our commitment to environmental stewardship.</li>
                                     <li>Our goal is to provide you with teas that consistently exceed expectations, embodying the essence of purity and excellence.</li>
                                 </ul>

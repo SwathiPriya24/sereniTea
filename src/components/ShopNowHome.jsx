@@ -7,8 +7,6 @@ import lteaimg from '../images/Lemon tea.jpg';
 import { Link } from 'react-router-dom';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { MdCurrencyRupee } from "react-icons/md";
-import { IoMdArrowForward } from "react-icons/io";
-import { MdDoubleArrow } from "react-icons/md";
 
 const products = [
     { id: 1, img: bteaimg, title: 'Black Tea 120', grm: '100gm' },
@@ -42,6 +40,7 @@ const ShopNowHome = () => {
                         <div className="row">
                             {products.map(product => (
                                 <div key={product.id} className="col-xl-3 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                    <Link to="./shopnow">
                                     <Card className='blackteaht m-2' style={{ width: '18rem' }}>
                                     {/* <Card className='blackteaht m-2'> */}
                                         <img  src={product.img} alt="" className='img-fluid'  />
@@ -50,6 +49,7 @@ const ShopNowHome = () => {
                                             <p className='mb-0 productPrice'>{product.title}<MdCurrencyRupee /> / {product.grm} </p>
                                         </Card.Body>
                                     </Card>
+                                    </Link>
                                 </div>
                             ))}
                         </div>

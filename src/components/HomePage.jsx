@@ -19,7 +19,6 @@ const HomePage = () => {
             <AboutSection />
             <TeaManufactProcess />
             <OurTea />
-
             <ShopNowHome />
             <OurOtherProducts />
             <ContactUs />

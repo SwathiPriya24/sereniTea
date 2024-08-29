@@ -33,7 +33,7 @@ const OurTea = () => {
                         </div>
                     </div>
 
-                    <div className="teadown row d-flex justify-content-center">
+                    <div className="teadown row d-flex justify-content-center align-items-end">
                         <div className="col-md-3 col-6  tea p-4">
                             <img src={herbaltea} alt="Herbal Tea" className="img-fluid tea-img" />
                             <h5 className='teatextht'>Herbal Tea</h5>

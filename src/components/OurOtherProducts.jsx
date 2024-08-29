@@ -20,7 +20,7 @@ const OurOtherProducts = () => {
                                     <ul className="productList">
                                         <li>
                                             <strong>Ooty Varkey:</strong>
-                                            <p>Experience the rich flavor of Ooty's finest traditional snacks. Our Ooty Varukey is made using age-old recipes, offering a crunchy and savory delight that transports you straight to the picturesque hills of Ooty.</p>
+                                            <p>Experience the rich flavor of Ooty's finest traditional snacks. Our Ooty Varkey is made using age-old recipes, offering a crunchy and savory delight that transports you straight to the hills of Ooty.</p>
                                         </li>
                                         <li>
                                             <strong>Coffee:</strong>
