@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sereniTea/static/css/main.347cde30.css",
-    "main.js": "/sereniTea/static/js/main.10576d88.js",
+    "main.css": "/sereniTea/static/css/main.ff130648.css",
+    "main.js": "/sereniTea/static/js/main.7b03b91f.js",
     "static/js/453.163f1043.chunk.js": "/sereniTea/static/js/453.163f1043.chunk.js",
     "static/media/backdrop.jpg": "/sereniTea/static/media/backdrop.f4b0eddeb82a996982fc.jpg",
     "static/media/ourStry.jpg": "/sereniTea/static/media/ourStry.ab553d8f88e64b54b219.jpg",
@@ -11,6 +11,7 @@
     "static/media/hibiscusteap.png": "/sereniTea/static/media/hibiscusteap.6c9ff6f44f73549d3c25.png",
     "static/media/banner-main.png": "/sereniTea/static/media/banner-main.402a7a2cc07a8d025015.png",
     "static/media/hibiscusteaaa.jpeg": "/sereniTea/static/media/hibiscusteaaa.7a6e6de0c38a204fd623.jpeg",
+    "static/media/loginteabg.webp": "/sereniTea/static/media/loginteabg.b5b7131150cbca6841b5.webp",
     "static/media/aboutusimg2.png": "/sereniTea/static/media/aboutusimg2.9e1b743765a2c84f2e2b.png",
     "static/media/black tea.png": "/sereniTea/static/media/black tea.eb629983cab8d176c37b.png",
     "static/media/green tea.png": "/sereniTea/static/media/green tea.e97640c25627369fd785.png",
@@ -40,12 +41,12 @@
     "static/media/oolong tea.webp": "/sereniTea/static/media/oolong tea.2f83ecfe1090acf88635.webp",
     "static/media/chamomile-tea.webp": "/sereniTea/static/media/chamomile-tea.5f21268d788e549cd737.webp",
     "index.html": "/sereniTea/index.html",
-    "main.347cde30.css.map": "/sereniTea/static/css/main.347cde30.css.map",
-    "main.10576d88.js.map": "/sereniTea/static/js/main.10576d88.js.map",
+    "main.ff130648.css.map": "/sereniTea/static/css/main.ff130648.css.map",
+    "main.7b03b91f.js.map": "/sereniTea/static/js/main.7b03b91f.js.map",
     "453.163f1043.chunk.js.map": "/sereniTea/static/js/453.163f1043.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.347cde30.css",
-    "static/js/main.10576d88.js"
+    "static/css/main.ff130648.css",
+    "static/js/main.7b03b91f.js"
   ]
 }
