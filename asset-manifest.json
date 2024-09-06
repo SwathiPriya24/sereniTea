@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/sereniTea/static/css/main.ff130648.css",
-    "main.js": "/sereniTea/static/js/main.7b03b91f.js",
+    "main.js": "/sereniTea/static/js/main.590b2e02.js",
     "static/js/453.163f1043.chunk.js": "/sereniTea/static/js/453.163f1043.chunk.js",
     "static/media/backdrop.jpg": "/sereniTea/static/media/backdrop.f4b0eddeb82a996982fc.jpg",
+    "static/media/GINGTea.jpg": "/sereniTea/static/media/GINGTea.3e786f8b5768e963a23e.jpg",
     "static/media/ourStry.jpg": "/sereniTea/static/media/ourStry.ab553d8f88e64b54b219.jpg",
     "static/media/WTEA.jpg": "/sereniTea/static/media/WTEA.fb4e18ce8f06ce605ad8.jpg",
     "static/media/abtpgimg.jpg": "/sereniTea/static/media/abtpgimg.717a34d0521f48fe869c.jpg",
@@ -42,11 +43,11 @@
     "static/media/chamomile-tea.webp": "/sereniTea/static/media/chamomile-tea.5f21268d788e549cd737.webp",
     "index.html": "/sereniTea/index.html",
     "main.ff130648.css.map": "/sereniTea/static/css/main.ff130648.css.map",
-    "main.7b03b91f.js.map": "/sereniTea/static/js/main.7b03b91f.js.map",
+    "main.590b2e02.js.map": "/sereniTea/static/js/main.590b2e02.js.map",
     "453.163f1043.chunk.js.map": "/sereniTea/static/js/453.163f1043.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff130648.css",
-    "static/js/main.7b03b91f.js"
+    "static/js/main.590b2e02.js"
   ]
 }
