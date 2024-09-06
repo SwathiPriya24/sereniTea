@@ -3,16 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import BannerSectionTwo from "./BannerSectionTwo";
-import { FaShoppingCart } from "react-icons/fa";
 import { FaIndianRupeeSign } from "react-icons/fa6";
-import { FaCartArrowDown } from "react-icons/fa6";
 import { GiShoppingCart } from "react-icons/gi";
 function ShopCard({ addToCart, cart, removeFromCart, initialProducts }) {
 
     return (
         <>
-
-
             <BannerSectionTwo />
 
             <div className="container px-0">

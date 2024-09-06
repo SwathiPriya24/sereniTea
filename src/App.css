@@ -13,7 +13,6 @@
   --primary-color: #507d3c;
   --secondary-color: #FF7C00;
   --teritary-color: #EEEEEE;
-  --teritary-color: #EEEEEE;
   --white-color: #ffffff;
   --fade-color: #E4FFE2;
   --roboto-font: "Roboto", sans-serif;
@@ -24,10 +23,6 @@
 h1 {
   font-size: 48px;
   font-weight: 900;
-
-
-
-
 }
 
 /* p{
@@ -59,7 +54,6 @@ h2 {
 /* .bg-body-tertiary .navbar .navbar-expand-lg{ */
 .navbar.navbar-expand-lg {
   background-color: var(--primary-color) !important;
-
 }
 
 .navMainBar {
@@ -1326,3 +1320,4 @@ border: 2px solid var(--primary-color);
 .logot{
 height: 45px !important;
 }
+

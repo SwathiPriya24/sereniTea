@@ -15,15 +15,12 @@ const HomePage = () => {
         <div>
 
             <BannerSectionOne />
-
             <AboutSection />
             <TeaManufactProcess />
             <OurTea />
             <ShopNowHome />
             <OurOtherProducts />
             <ContactUs />
-
-
 
         </div>
     )

@@ -14,11 +14,11 @@ const BannerSectionOne = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className='text-start'>
-                                <h1 className='mb-3 pt-4'>Sereni Tea Hills - Tea for Your Peaceful Moments</h1>
+                                <h1 className='mb-3 pt-4'>"Unwind with the calming flavors of SereniTea Hills"</h1>
                                 <div className="col-10 text-start">  <h6> Discover the finest teas, handpicked from lush hills, and delivered to your doorstep. <br /> Indulge in a serene tea experience with every sip. Enjoy the perfect blend of flavor and tranquility from SereniTea Hills.</h6>
                                 </div>
                                 <button className='bannnerBtn'>
-                                    Buy Now
+                                   <a href="./shopnow"> Buy Now</a>
                                 </button>
 
                             </div>
