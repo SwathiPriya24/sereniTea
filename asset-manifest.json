@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/sereniTea/static/css/main.ff130648.css",
-    "main.js": "/sereniTea/static/js/main.590b2e02.js",
+    "main.css": "/sereniTea/static/css/main.47c8d40f.css",
+    "main.js": "/sereniTea/static/js/main.590352f2.js",
     "static/js/453.163f1043.chunk.js": "/sereniTea/static/js/453.163f1043.chunk.js",
     "static/media/backdrop.jpg": "/sereniTea/static/media/backdrop.f4b0eddeb82a996982fc.jpg",
-    "static/media/GINGTea.jpg": "/sereniTea/static/media/GINGTea.3e786f8b5768e963a23e.jpg",
     "static/media/ourStry.jpg": "/sereniTea/static/media/ourStry.ab553d8f88e64b54b219.jpg",
     "static/media/WTEA.jpg": "/sereniTea/static/media/WTEA.fb4e18ce8f06ce605ad8.jpg",
     "static/media/abtpgimg.jpg": "/sereniTea/static/media/abtpgimg.717a34d0521f48fe869c.jpg",
@@ -28,6 +27,7 @@
     "static/media/chocolatehd.png": "/sereniTea/static/media/chocolatehd.9a407e8644cef68370b8.png",
     "static/media/lemonTea.png": "/sereniTea/static/media/lemonTea.6e51bc0cc60327ad6f1d.png",
     "static/media/logotea.png": "/sereniTea/static/media/logotea.d4e2164a85e509aa1b0e.png",
+    "static/media/ggtea.jpeg": "/sereniTea/static/media/ggtea.b1c635c96776587f0fb9.jpeg",
     "static/media/Desktop - 26.png": "/sereniTea/static/media/Desktop - 26.c69d67bc236d46e8297e.png",
     "static/media/special.png": "/sereniTea/static/media/special.e333863b35f4017c0a81.png",
     "static/media/types of tea.jpg": "/sereniTea/static/media/types of tea.338018ce3b68b5572bcb.jpg",
@@ -42,12 +42,12 @@
     "static/media/oolong tea.webp": "/sereniTea/static/media/oolong tea.2f83ecfe1090acf88635.webp",
     "static/media/chamomile-tea.webp": "/sereniTea/static/media/chamomile-tea.5f21268d788e549cd737.webp",
     "index.html": "/sereniTea/index.html",
-    "main.ff130648.css.map": "/sereniTea/static/css/main.ff130648.css.map",
-    "main.590b2e02.js.map": "/sereniTea/static/js/main.590b2e02.js.map",
+    "main.47c8d40f.css.map": "/sereniTea/static/css/main.47c8d40f.css.map",
+    "main.590352f2.js.map": "/sereniTea/static/js/main.590352f2.js.map",
     "453.163f1043.chunk.js.map": "/sereniTea/static/js/453.163f1043.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff130648.css",
-    "static/js/main.590b2e02.js"
+    "static/css/main.47c8d40f.css",
+    "static/js/main.590352f2.js"
   ]
 }
