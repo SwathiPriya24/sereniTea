@@ -22,6 +22,7 @@ import ct from "../images/cardamom-tea.webp";
 import cht from "../images/chamomile-tea.webp";
 import ht from "../images/hibiscusteaaa.jpeg";
 import cot from "../images/chocolatehd.png";
+import CheckoutPage from './CheckoutPage.jsx'
 
 const Maincontent = () => {
 
@@ -113,7 +114,6 @@ const Maincontent = () => {
         <>
 
             <NavPage />
-
             <Routes>
                  <Route path='/' element={< HomePage />}/>
                  <Route path='/sereniTea' element={< HomePage />}/>
@@ -138,6 +138,7 @@ const Maincontent = () => {
                 <Route path='/ourteas' element={<OurTeas />}></Route>
                 <Route path='/contact' element={<ContactUs />}></Route>
                 <Route path='/blog' element={<Blogs />}></Route>
+                {/* <Route path='/checkout' element={< CheckoutPage />}></Route> */}
                 <Route path='/forgot-password' element={<ForgotPasswordForm />}></Route>
 
             </Routes>

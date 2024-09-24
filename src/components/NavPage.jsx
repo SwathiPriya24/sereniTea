@@ -56,6 +56,7 @@ export default function NavPage() {
                          
                         </Nav>
                         <span className="d-flex navCartRight">
+                            
                             <Nav.Link href="#action1" className='cart'>
                                 <Link to="/Cart">
                                     <RiShoppingBag4Line style={{ height: '100%', width: 'auto' }} />

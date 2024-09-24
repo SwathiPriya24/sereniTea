@@ -46,6 +46,12 @@ h2 {
 
 }
 
+.banertwo {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
 .aboutUsImgLeft {
   border-radius: 20px;
   background-color: var(--fade-color);
@@ -392,9 +398,10 @@ input {
   transition: 1s;
 }
 
-/* .bannnerBtn:hover {
+.bannnerBtn:hover {
   background-color: var(--secondary-color);
-} */
+}
+
 .prodCardImg img {
   border-radius: 15px 15px 0px 0px;
   height: 200px;
@@ -828,6 +835,7 @@ input[type="password"] {
   border: none;
   border-radius: 5px;
 }
+
 .shopnowbtn {
   width: 20%;
   background-color: var(--primary-color);
@@ -1303,21 +1311,96 @@ p.remcont {
 .endline {
   color: grey;
 }
+
 .bannnerBtn:hover {
-color:var(--primary-color);
-background-color: white;
-border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  /* background-color: white; */
+  border: 2px solid var(--primary-color);
 }
-.totalprice{
+
+.totalprice {
   height: 50px;
   width: 210px;
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   color: white;
   border-radius: 10px;
   text-align: center;
- 
-}
-.logot{
-height: 45px !important;
+
 }
 
+.logot {
+  height: 45px !important;
+}
+
+.checkpage {
+  margin-top: 25px;
+  color: var(--primary-color);
+
+}
+
+.checkpagee {
+  color: var(--primary-color);
+
+}
+
+.pay {
+  background-color: var(--fade-color);
+}
+
+.payment {
+  background-color: var(--fade-color);
+  border: none !important;
+  margin: 5px;
+  padding: 10px;
+  color: var(--primary-color);
+}
+
+button.payment:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.payment svg {
+  color: var(--secondary-color);
+}
+
+.paynow {
+  width: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+.payoption {
+  width: 50%;
+}
+
+.gpay {
+  margin-left: 20px;
+  height: 30px;
+  width: 50px;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+  background-color: var(--fade-color);
+  color: var(--primary-color);
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--primary-color) !important;
+  background-color: var(--fade-color) !important;
+  box-shadow: none !important;
+}
+
+
+.cartSection{
+  padding-top:120px ;
+}

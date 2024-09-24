@@ -34,7 +34,6 @@ const Login = () => {
             </a>
           </div>
 
-         
           <div className="form-group py-2">
             <label htmlFor="username">Username or Email</label>
             <input
@@ -61,7 +60,7 @@ const Login = () => {
             </div>
           </div>
           <button className='btnlogin' type="submit">
-            <Link to="/Cart">Login</Link>
+            <Link to="#">Login</Link>
           </button>
         </form>
       </div>

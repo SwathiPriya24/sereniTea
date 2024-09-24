@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Cart = ({ cart, calculateTotalPrice, removeFromCart }) => {
     return (
-        <>
+        < section className='cartSection'>
             <div className='container text-center py-4 px-0'>
                 {cart.length === 0 ? (
                     <>
@@ -53,15 +53,15 @@ const Cart = ({ cart, calculateTotalPrice, removeFromCart }) => {
                                 <h6 className='endline text-end'>Taxes and shipping calculated after Placing Order</h6>
                             </div>
                             <div className='d-flex justify-content-center align-items-center'>
-                                <button className='placeorderProd  pt-2 '>
-                                    <Link to="/login">Place Order</Link>
-                                </button>
+                            <Link to="/login">  <button className='placeorderProd  pt-2 '>
+                              Place Order
+                                </button></Link>
                             </div>
                         </ListGroup>
                     </>
                 )}
             </div>
-        </>
+        </section>
     );
 };
 

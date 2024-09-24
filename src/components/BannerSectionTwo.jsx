@@ -3,7 +3,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import lt from "../images/GINGTea.jpg"
+import lt from "../images/ggtea.jpeg"
 
 const BannerSectionTwo = () => {
     return (
@@ -21,8 +21,8 @@ const BannerSectionTwo = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 pb-4">
-                            <img src={lt} alt="" className='img-fluid' />
+                        <div className="col-md-6 pb-4 d-flex justify-content-center">
+                            <img src={lt} alt="" className='banertwo img-fluid' />
                         </div>
                     </div>
 

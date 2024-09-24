@@ -9,18 +9,12 @@ function AboutSection() {
             <section className='aboutUsSection'>
                 <div className="container  px-0">
 
-
                     <h2 className='text-center'>About Us</h2>
-
-
+                    
+                    
 
                     <div className="row">
                         <div className="col-md-6"><img src={aboutimg} alt="" className='img-fluid aboutUsImgLeft' /></div>
-
-
-
-
-
 
                         <div className="col-md-6 pt-3">
                             <div className="aboutUsCont">
