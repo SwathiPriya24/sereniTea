@@ -47,8 +47,8 @@ h2 {
 }
 
 .banertwo {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   border-radius: 20px;
 }
 
@@ -398,9 +398,7 @@ input {
   transition: 1s;
 }
 
-.bannnerBtn:hover {
-  background-color: var(--secondary-color);
-}
+
 
 .prodCardImg img {
   border-radius: 15px 15px 0px 0px;
@@ -1314,7 +1312,6 @@ p.remcont {
 
 .bannnerBtn:hover {
   color: var(--primary-color);
-  /* background-color: white; */
   border: 2px solid var(--primary-color);
 }
 
@@ -1325,7 +1322,6 @@ p.remcont {
   color: white;
   border-radius: 10px;
   text-align: center;
-
 }
 
 .logot {
@@ -1335,12 +1331,10 @@ p.remcont {
 .checkpage {
   margin-top: 25px;
   color: var(--primary-color);
-
 }
 
 .checkpagee {
   color: var(--primary-color);
-
 }
 
 .pay {
@@ -1391,7 +1385,6 @@ button.payment:hover {
 
 .accordion-button:focus {
   box-shadow: none !important;
-
 }
 
 .accordion-button:not(.collapsed) {
@@ -1400,7 +1393,16 @@ button.payment:hover {
   box-shadow: none !important;
 }
 
-
 .cartSection{
   padding-top:120px ;
+}
+.text-reset {
+  color: inherit; 
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.text-reset:hover {
+  color: #007bff; 
+  transform: scale(1.3); 
 }

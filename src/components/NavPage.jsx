@@ -19,7 +19,7 @@ export default function NavPage() {
         <header>
 
             <div className="topOfferBar">
-                Offer  Citrus Bliss Green Tea | Use "TEA20" & Get FLAT 20% OFF
+                Offer  Citrus Bliss Tea | Use "TEA20" & Get FLAT 20% OFF
             </div>
 
             <Navbar expand="lg" className="bg-body-tertiary">

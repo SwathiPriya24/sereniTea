@@ -3,16 +3,17 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import bteaimg from '../images/Black-Tea-.webp';
 import gteaimg from '../images/Greentea.png';
-import lteaimg from '../images/Lemon tea.jpg';
+import lteaimg from '../images/lemonTea.jpg';
+import hteaimg from '../images/hibiscusteaaa.jpeg';
 import { Link } from 'react-router-dom';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { MdCurrencyRupee } from "react-icons/md";
 
 const products = [
-    { id: 1, img: bteaimg, title: 'Black Tea 120', grm: '100gm' },
-    { id: 2, img: gteaimg, title: 'Green Tea 120', grm: '100gm' },
-    { id: 3, img: lteaimg, title: 'Citrus Bliss 120', grm: '100gm' },
-    { id: 4, img: lteaimg, title: 'Citrus Bliss 120', grm: '100gm' }
+    { id: 1, img: bteaimg, title: 'Black Tea ', grm: '100gm' },
+    { id: 2, img: gteaimg, title: 'Green Tea ', grm: '100gm' },
+    { id: 3, img: lteaimg, title: 'Citrus Bliss ', grm: '100gm' },
+    { id: 4, img: hteaimg, title: 'Hibiscus Dream ', grm: '100gm' }
 ];
 
 const ShopNowHome = () => {

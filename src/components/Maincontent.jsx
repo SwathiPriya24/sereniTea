@@ -22,8 +22,10 @@ import ct from "../images/cardamom-tea.webp";
 import cht from "../images/chamomile-tea.webp";
 import ht from "../images/hibiscusteaaa.jpeg";
 import cot from "../images/chocolatehd.png";
-import CheckoutPage from './CheckoutPage.jsx'
-
+import lt from '../images/lemonTea.jpg';
+import vark from '../images/varkey.jpg';
+import cof from '../images/coffee 2.jpg';
+import gst from '../images/GINGTeanew.png';
 const Maincontent = () => {
 
 
@@ -32,23 +34,30 @@ const Maincontent = () => {
     const [initialProducts, setInitialCart] = useState([
         { id: 1, name: "Black Tea ", grm: '100gm', price: 145, quantity: 0, img:  bt },
         { id: 2, name: "Black Tea ", grm: '250gm', price: 290, quantity: 0, img: bt },
-        { id: 3, name: "Black Tea ", grm: '500gm', price: 580, quantity: 0, img: bt },
+        { id: 3, name: "Black Tea ", grm: '500gm', price: 680, quantity: 0, img: bt },
         { id: 4, name: "Green Tea ", grm: '100gm', price: 190, quantity: 0, img:  gt  },
         { id: 5, name: "Green Tea ", grm: '250gm', price: 380, quantity: 0, img: gt },
         { id: 6, name: "Green Tea ", grm: '500gm', price: 760, quantity: 0, img: gt },
-        { id: 7, name: "White Tea ", grm: '100gm', price: 780, quantity: 0, img: wt},
-        { id: 8, name: "White Tea ", grm: '250gm', price: 1560, quantity: 0, img: wt },
-        { id: 9, name: "Oolong Tea ", grm: '100gm', price: 780, quantity: 0, img:ot},
+        { id: 7, name: "White Tea ", grm: '250gm', price: 780, quantity: 0, img: wt},
+        { id: 8, name: "White Tea ", grm: '500gm', price: 1560, quantity: 0, img: wt },
+        { id: 9, name: "Oolong Tea ", grm: '250gm', price: 780, quantity: 0, img:ot},
         { id: 10, name: "Oolong Tea ", grm: '500gm', price: 1560, quantity: 0, img: ot },
-        { id: 11, name: "Serenity Spice Symphony ", grm: '100gm', price: 780, quantity: 0, img: ct },
+        { id: 11, name: "Serenity Spice Symphony ", grm: '250gm', price: 780, quantity: 0, img: ct },
         { id: 12, name: "Serenity Spice Symphony ", grm: '500gm', price: 1560, quantity: 0, img: ct },
-
-        { id: 13, name: "Soothing Chamomile ", grm: '100gm', price: 1560, quantity: 0, img: cht },
+        { id: 13, name: "Soothing Chamomile ", grm: '250gm', price: 1560, quantity: 0, img: cht },
         { id: 14, name: "Soothing Chamomile ", grm: '500gm', price: 1560, quantity: 0, img: cht },
-        { id: 15, name: "Hibiscus Dream ", grm: '100gm', price: 780, quantity: 0, img: ht },
+        { id: 15, name: "Hibiscus Dream ", grm: '250gm', price: 780, quantity: 0, img: ht },
         { id: 16, name: "Hibiscus Dream ", grm: '500gm', price: 1560, quantity: 0, img: ht },
-        { id: 19, name: "Homemade chocolate ", grm: '100gm', price: 750, quantity: 0, img: cot },
+        { id: 17, name: "Citrus Bliss ", grm: '250gm', price: 780, quantity: 0, img: lt },
+        { id: 18, name: " Citrus Bliss ", grm: '500gm', price: 1560, quantity: 0, img: lt },
+        { id: 18, name: " Ginger SeriniTea ", grm: '250gm', price: 880, quantity: 0, img: gst },
+        { id: 18, name: " Ginger SeriniTea ", grm: '500gm', price: 1660, quantity: 0, img: gst },
+        { id: 19, name: "Homemade chocolate ", grm: '250gm', price: 750, quantity: 0, img: cot },
         { id: 20, name: "Homemade chocolate ", grm: '500gm', price: 750, quantity: 0, img: cot },
+        { id: 21, name: "Ooty Varkey", grm: '250gm', price: 250, quantity: 0, img: vark },
+        { id: 22, name: "Ooty Varkey ", grm: '500gm', price: 1250, quantity: 0, img: vark },
+        { id: 23, name: "Coffee", grm: '250gm', price: 150, quantity: 0, img: cof },
+        { id: 24, name: "Coffee ", grm: '500gm', price: 500, quantity: 0, img: cof },
 
 
     ]);

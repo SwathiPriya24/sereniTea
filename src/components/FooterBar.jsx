@@ -126,14 +126,14 @@ export default function FooterBar() {
                 Catherine falls road, Kotagiri-643217,The Nilgiris
               </p>
               <p>
-                <MDBIcon icon="envelope" className='me-3' />
-                sereniteahills@gmail.com
+                <MDBIcon icon="envelope" className='text-reset me-3' />
+                <a className='text-reset'  href="mailto:sereniteahills@gmail.com"> sereniteahills@gmail.com</a>
               </p>
               <p>
-                <MDBIcon icon="phone" className='me-3' /> + 91 9909787865
+                <MDBIcon icon="phone" className='me-3' /> <a className='text-reset'  href="tel:+ 91 9909787865">+ 91 9909787865</a>
               </p>
               <p> 
-                <MDBIcon icon="print" className='me-3' /> + 91 9909787856
+                <MDBIcon icon="print" className='me-3' /> <a className='text-reset'  href="tel:+ 91 9909787856">+ 91 9909787856</a>
               </p>
             </MDBCol>
           </MDBRow>
