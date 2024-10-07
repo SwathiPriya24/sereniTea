@@ -50,14 +50,14 @@ const Maincontent = () => {
         { id: 16, name: "Hibiscus Dream ", grm: '500gm', price: 1560, quantity: 0, img: ht },
         { id: 17, name: "Citrus Bliss ", grm: '250gm', price: 780, quantity: 0, img: lt },
         { id: 18, name: " Citrus Bliss ", grm: '500gm', price: 1560, quantity: 0, img: lt },
-        { id: 18, name: " Ginger SeriniTea ", grm: '250gm', price: 880, quantity: 0, img: gst },
-        { id: 18, name: " Ginger SeriniTea ", grm: '500gm', price: 1660, quantity: 0, img: gst },
-        { id: 19, name: "Homemade chocolate ", grm: '250gm', price: 750, quantity: 0, img: cot },
-        { id: 20, name: "Homemade chocolate ", grm: '500gm', price: 750, quantity: 0, img: cot },
-        { id: 21, name: "Ooty Varkey", grm: '250gm', price: 250, quantity: 0, img: vark },
-        { id: 22, name: "Ooty Varkey ", grm: '500gm', price: 1250, quantity: 0, img: vark },
-        { id: 23, name: "Coffee", grm: '250gm', price: 150, quantity: 0, img: cof },
-        { id: 24, name: "Coffee ", grm: '500gm', price: 500, quantity: 0, img: cof },
+        { id: 19, name: " Ginger SeriniTea ", grm: '250gm', price: 880, quantity: 0, img: gst },
+        { id: 20, name: " Ginger SeriniTea ", grm: '500gm', price: 1660, quantity: 0, img: gst },
+        { id: 21, name: "Homemade chocolate ", grm: '250gm', price: 750, quantity: 0, img: cot },
+        { id: 22, name: "Homemade chocolate ", grm: '500gm', price: 750, quantity: 0, img: cot },
+        { id: 23, name: "Ooty Varkey", grm: '250gm', price: 250, quantity: 0, img: vark },
+        { id: 24, name: "Ooty Varkey ", grm: '500gm', price: 1250, quantity: 0, img: vark },
+        { id: 25, name: "Coffee", grm: '250gm', price: 150, quantity: 0, img: cof },
+        { id: 26, name: "Coffee ", grm: '500gm', price: 500, quantity: 0, img: cof },
 
 
     ]);
