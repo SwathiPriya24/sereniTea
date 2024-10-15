@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sereniTea/static/css/main.b84f7db0.css",
-    "main.js": "/sereniTea/static/js/main.a38b20f6.js",
+    "main.css": "/sereniTea/static/css/main.0c2e7e8d.css",
+    "main.js": "/sereniTea/static/js/main.4de83378.js",
     "static/js/453.163f1043.chunk.js": "/sereniTea/static/js/453.163f1043.chunk.js",
     "static/media/backdrop.jpg": "/sereniTea/static/media/backdrop.f4b0eddeb82a996982fc.jpg",
     "static/media/GINGTeanew.png": "/sereniTea/static/media/GINGTeanew.706d94b3f21d2c8820e4.png",
@@ -27,6 +27,7 @@
     "static/media/iconTea.png": "/sereniTea/static/media/iconTea.1660b1830c857913b64c.png",
     "static/media/chocolatehd.png": "/sereniTea/static/media/chocolatehd.9a407e8644cef68370b8.png",
     "static/media/lemonTea.png": "/sereniTea/static/media/lemonTea.6e51bc0cc60327ad6f1d.png",
+    "static/media/spcltea.png": "/sereniTea/static/media/spcltea.04b88bb0918803b5c437.png",
     "static/media/logotea.png": "/sereniTea/static/media/logotea.d4e2164a85e509aa1b0e.png",
     "static/media/Desktop - 26.png": "/sereniTea/static/media/Desktop - 26.c69d67bc236d46e8297e.png",
     "static/media/special.png": "/sereniTea/static/media/special.e333863b35f4017c0a81.png",
@@ -42,12 +43,12 @@
     "static/media/oolong tea.webp": "/sereniTea/static/media/oolong tea.2f83ecfe1090acf88635.webp",
     "static/media/chamomile-tea.webp": "/sereniTea/static/media/chamomile-tea.5f21268d788e549cd737.webp",
     "index.html": "/sereniTea/index.html",
-    "main.b84f7db0.css.map": "/sereniTea/static/css/main.b84f7db0.css.map",
-    "main.a38b20f6.js.map": "/sereniTea/static/js/main.a38b20f6.js.map",
+    "main.0c2e7e8d.css.map": "/sereniTea/static/css/main.0c2e7e8d.css.map",
+    "main.4de83378.js.map": "/sereniTea/static/js/main.4de83378.js.map",
     "453.163f1043.chunk.js.map": "/sereniTea/static/js/453.163f1043.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b84f7db0.css",
-    "static/js/main.a38b20f6.js"
+    "static/css/main.0c2e7e8d.css",
+    "static/js/main.4de83378.js"
   ]
 }
