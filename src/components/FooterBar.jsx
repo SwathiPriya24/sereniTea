@@ -67,7 +67,7 @@ export default function FooterBar() {
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" />
+                <MDBIcon icon="gem" className='px-2' /> 
                 SereniTea Hills
               </h6>
               <p>
@@ -75,44 +75,44 @@ export default function FooterBar() {
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4 text-center'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
-                <a href='/shopnow' className='text-reset'>
+              <p className='foothover'>
+                <a href='/shopnow' className=' text-reset'>
                   Green Tea
                 </a>
               </p>
-              <p>
-                <a href='/shopnow' className='text-reset'>
+              <p className='foothover'>
+                <a href='/shopnow' className=' text-reset'>
                   Black Tea
                 </a>
               </p>
-              <p>
+              <p className='foothover'>
                 <a href='/shopnow' className='text-reset'>
                   Oolong Tea
                 </a>
               </p>
-              <p>
-                <a href='/shopnow' className='text-reset'>
+              <p className='foothover'>
+                <a href='/shopnow' className=' text-reset'>
                   Herbal Tea
                 </a>
               </p>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4 text-center'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-              <p>
-                <a href='/shopnow' className='text-reset'>
+              <p className='foothover'>
+                <a href='/shopnow' className=' text-reset'>
                   Shop Now
                 </a>
               </p>
 
-              <p>
-                <a href='/cart' className='text-reset'>
+              <p className='foothover'>
+                <a href='/cart' className=' text-reset'>
                   Orders
                 </a>
               </p>
-              <p>
+              <p className='foothover'>
                 <a href='/contact' className='text-reset'>
                   Help
                 </a>
@@ -121,18 +121,18 @@ export default function FooterBar() {
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-              <p>
+              <p className='foothover'>
                 <MDBIcon icon="home "className='me-3' />
                 Catherine falls road, Kotagiri-643217,The Nilgiris
               </p>
-              <p>
+              <p className='foothover'>
                 <MDBIcon icon="envelope" className='text-reset me-3' />
-                <a className='text-reset'  href="mailto:sereniteahills@gmail.com"> sereniteahills@gmail.com</a>
+                <a className='text-reset' href="mailto:sereniteahills@gmail.com"> sereniteahills@gmail.com</a>
               </p>
-              <p>
+              <p className='foothover'>
                 <MDBIcon icon="phone" className='me-3' /> <a className='text-reset'  href="tel:+ 91 9909787865">+ 91 9909787865</a>
               </p>
-              <p> 
+              <p className='foothover'> 
                 <MDBIcon icon="print" className='me-3' /> <a className='text-reset'  href="tel:+ 91 9909787856">+ 91 9909787856</a>
               </p>
             </MDBCol>

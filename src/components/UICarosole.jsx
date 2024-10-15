@@ -4,7 +4,7 @@ import ExampleCarouselImage from '../images/Desktop - 26.png';
 function UICarosole() {
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={500}>
         <ExampleCarouselImage text="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>

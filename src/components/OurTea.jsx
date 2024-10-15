@@ -4,7 +4,7 @@ import greentea from "../images/green tea.png";
 import oolongtea from '../images/oolong tea.png';
 import blacktea from '../images/black tea.png';
 import herbaltea from '../images/hibiscusteap.png';
-import specialtea from '../images/special.png';
+import specialtea from '../images/spcltea.png';
 
 
 const OurTea = () => {
@@ -39,7 +39,7 @@ const OurTea = () => {
                             <h5 className='teatextht'>Herbal Tea</h5>
                         </div>
                         <div className="col-md-3 col-6  tea p-4">
-                            <img src={specialtea} alt="Special Tea" className="img-fluid tea-img" />
+                            <img  src={specialtea} alt="Special Tea" className="spcl img-fluid tea-img" />
                             <h5 className='teatextht'>Special Tea</h5>
                         </div>
                     </div>

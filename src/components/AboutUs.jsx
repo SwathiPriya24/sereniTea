@@ -15,20 +15,19 @@ const AboutUs = () => {
                 <div className='container'>
 
 
-                    <div className="row py-3">
+                    <div className="row pt-3">
                         <h2 className='text-center mb-0'>Welcome to SereniTea Hills, <br />
                         </h2>
-                        <b>
-                            <p className='text-center'>Where the artistry of tea meets the tranquility of nature.</p></b>
+                       
 
                     </div>
 
                     <div className="row">
-                        <div className="col-md-6 d-flex justify-content-center">
+                        <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <img src={aboutusimg} className='img-fluid' alt="" />
                         </div>
 
-                        <div className="col-md-6 pt-4">
+                        <div className="col-md-6 pt-2">
                             <p> At SereniTea Hills, we believe that every cup of tea tells a story-a story of meticulous craftsmanship, of natural purity, and of serene moments shared. Our journey began with a passion for tea, ignited by the serene landscapes and rich cultural heritage of tea-growing regions around the world.
                             </p>
 
