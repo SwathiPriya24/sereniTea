@@ -1,25 +1,22 @@
+// RememberMeCheckbox.js
 import React from 'react';
 
 const RememberMeCheckbox = ({ rememberMe, onChange }) => {
-  const handleCheckboxChange = (event) => {
-    onChange(event.target.checked);
-  };
+    const handleCheckboxChange = (e) => {
+        onChange(e.target.checked);
+    };
 
-  return (
-    <div className='row' >
-      <div className="col-2  d-flex align-items-center">
-        <input
-          type="checkbox"
-          checked={rememberMe}
-          onChange={handleCheckboxChange}
-        />
-      </div>
-      <div className="col-10 d-flex align-items-center">
-        <p className='remcont'>  Remember Me</p>
-
-      </div>
-    </div>
-  );
+    return (
+        <div className=" container remember-me px-4">
+            <input
+                type="checkbox"
+                id="rememberMe"
+                checked={rememberMe}
+                onChange={handleCheckboxChange}
+            />
+            <label htmlFor="rememberMe">Remember Me</label>
+        </div>
+    );
 };
 
 export default RememberMeCheckbox;

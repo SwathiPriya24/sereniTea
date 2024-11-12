@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import SectionSix from './SectionSix'
 import FooterBar from './FooterBar'
+import CheckoutPage from './CheckoutPage.jsx'
 import Login from './Login'
 import NavPage from './NavPage'
 import HomePage from './HomePage'
@@ -26,21 +26,24 @@ import lt from '../images/lemonTea.jpg';
 import vark from '../images/varkey.jpg';
 import cof from '../images/coffee 2.jpg';
 import gst from '../images/GINGTeanew.png';
+import CreateAccount from './CreateAccount.jsx'
+import AdminPage from './AdminPage.jsx'
+import AdminLogin from './AdminLogin.jsx'
 const Maincontent = () => {
 
 
     const [cart, setCart] = useState([]);
 
     const [initialProducts, setInitialCart] = useState([
-        { id: 1, name: "Black Tea ", grm: '100gm', price: 145, quantity: 0, img:  bt },
+        { id: 1, name: "Black Tea ", grm: '100gm', price: 145, quantity: 0, img: bt },
         { id: 2, name: "Black Tea ", grm: '250gm', price: 290, quantity: 0, img: bt },
         { id: 3, name: "Black Tea ", grm: '500gm', price: 680, quantity: 0, img: bt },
-        { id: 4, name: "Green Tea ", grm: '100gm', price: 190, quantity: 0, img:  gt  },
+        { id: 4, name: "Green Tea ", grm: '100gm', price: 190, quantity: 0, img: gt },
         { id: 5, name: "Green Tea ", grm: '250gm', price: 380, quantity: 0, img: gt },
         { id: 6, name: "Green Tea ", grm: '500gm', price: 760, quantity: 0, img: gt },
-        { id: 7, name: "White Tea ", grm: '250gm', price: 780, quantity: 0, img: wt},
+        { id: 7, name: "White Tea ", grm: '250gm', price: 780, quantity: 0, img: wt },
         { id: 8, name: "White Tea ", grm: '500gm', price: 1560, quantity: 0, img: wt },
-        { id: 9, name: "Oolong Tea ", grm: '250gm', price: 780, quantity: 0, img:ot},
+        { id: 9, name: "Oolong Tea ", grm: '250gm', price: 780, quantity: 0, img: ot },
         { id: 10, name: "Oolong Tea ", grm: '500gm', price: 1560, quantity: 0, img: ot },
         { id: 11, name: "Serenity Spice Symphony ", grm: '250gm', price: 780, quantity: 0, img: ct },
         { id: 12, name: "Serenity Spice Symphony ", grm: '500gm', price: 1560, quantity: 0, img: ct },
@@ -117,6 +120,9 @@ const Maincontent = () => {
     const calculateTotalPrice = () => {
         return cart.reduce((total, product) => total + product.totalPrice, 0);
     };
+    const clearCart = () => {
+        setCart([]); // or however your cart state is managed
+    };
 
 
     return (
@@ -124,8 +130,8 @@ const Maincontent = () => {
 
             <NavPage />
             <Routes>
-                 <Route path='/' element={< HomePage />}/>
-                 <Route path='/sereniTea' element={< HomePage />}/>
+                <Route path='/' element={< HomePage />} />
+                <Route path='/sereniTea' element={< HomePage />} />
                 <Route path="shopnow" element={
                     <ShopCard
                         addToCart={addToCart}
@@ -139,16 +145,20 @@ const Maincontent = () => {
                     <Cart
                         cart={cart}
                         calculateTotalPrice={calculateTotalPrice} removeFromCart={removeFromCart}
+                        clearCart={clearCart}
                     />}
                 />
 
-                <Route path='/Login' element={<Login />}></Route>
+                <Route path='/login' element={<Login />}></Route>
                 <Route path='/aboutus' element={<AboutUs />}></Route>
                 <Route path='/ourteas' element={<OurTeas />}></Route>
                 <Route path='/contact' element={<ContactUs />}></Route>
                 <Route path='/blog' element={<Blogs />}></Route>
-                {/* <Route path='/checkout' element={< CheckoutPage />}></Route> */}
+                <Route path='/checkout' element={< CheckoutPage />}></Route>
+                <Route path='/createaccount' element={<CreateAccount />}></Route>
                 <Route path='/forgot-password' element={<ForgotPasswordForm />}></Route>
+                <Route path='/admin' element={<AdminPage />}></Route>
+                <Route path='/adminlogin' element={<AdminLogin />}></Route>
 
             </Routes>
             <FooterBar />

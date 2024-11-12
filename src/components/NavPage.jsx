@@ -1,19 +1,16 @@
-import React, { useState } from 'react';
-
-
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaUserCircle } from "react-icons/fa";
 import { CgMenuLeftAlt } from "react-icons/cg";
-import { Link } from 'react-router-dom'
-import { RiShoppingBag4Line } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 import logot from "../images/logotea.png"
-
-
+import { IoLockClosed } from "react-icons/io5";
+import { FaWindowClose } from "react-icons/fa";
+import { FaCartArrowDown } from "react-icons/fa";
 
 export default function NavPage() {
-    const [showBasic, setShowBasic] = useState(false);
 
     return (
         <header>
@@ -29,7 +26,7 @@ export default function NavPage() {
                     </Navbar.Brand>
                     <span className="d-flex navCartLeft">
                         <Nav.Link href="#action1" className='cart d-flex align-items-center'>
-                            <Link to="/Cart"> <RiShoppingBag4Line /> </Link>
+                            <Link to="/Cart"> <FaCartArrowDown /> </Link>
                         </Nav.Link>
                         <Nav.Link href="#action1" className='cart d-flex align-items-center'>
                             <Link to='/login'> <FaUserCircle /></Link>
@@ -45,27 +42,34 @@ export default function NavPage() {
                             <Nav.Link href="#action1">
                                 <Link to='/'>  Home</Link>
                             </Nav.Link>
-                          
-                            <Nav.Link href="#action2">
+
+                            <Nav.Link href="#action1">
                                 <Link to='/aboutus'> About Us</Link> </Nav.Link>
-                                <Nav.Link href="#action2">
+                            <Nav.Link href="#action2">
                                 <Link to='/shopnow'>  Shop Now</Link>
                             </Nav.Link>
-                            <Nav.Link href="#action2">
+                            <Nav.Link href="#action3">
                                 <Link to='/blog'> Blogs</Link></Nav.Link>
-                         
+
                         </Nav>
                         <span className="d-flex navCartRight">
-                            
                             <Nav.Link href="#action1" className='cart'>
-                                <Link to="/Cart">
-                                    <RiShoppingBag4Line style={{ height: '100%', width: 'auto' }} />
+                                <Link to="/adminlogin"> <IoLockClosed style={{ height: '100%', width: 'auto' }} />
                                 </Link>
                             </Nav.Link>
-                            <Nav.Link href="#action1" className='cart'>
+
+                            <Nav.Link href="#action2" className='cart'>
+                                <Link to="/Cart">
+                                    <FaCartArrowDown style={{ height: '100%', width: 'auto' }} />
+                                </Link>
+                            </Nav.Link>
+                            <Nav.Link href="#action3" className='cart'>
                                 <Link to='/login'> <FaUserCircle style={{ height: '100%', width: 'auto' }} /></Link>
                             </Nav.Link>
-
+                            <Nav.Link href="#action4" className='cart'>
+                                <Link to="/"> <FaWindowClose style={{ height: '100%', width: 'auto' }} />
+                                </Link>
+                            </Nav.Link>
                             <Navbar.Toggle aria-controls="navbarScroll" />
                         </span>
 

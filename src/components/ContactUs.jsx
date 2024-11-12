@@ -54,24 +54,28 @@ const ContactUs = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
+        
         if (validate()) {
-
-            axios.post('http://localhost/sereniTea/contactForm.php', formData, {
+            axios.post('http://localhost/serenitea/contactForm.php', formData, {
                 headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
+                    'Content-Type': 'application/json'
                 }
             })
-                .then(response => {
+            
+            .then(response => {
+                if (response.data.status === 'success') {
                     setSubmitted(true);
-                    alert('Form submitted successfully');
-                })
-                .catch(error => {
-                    console.error('There was an error submitting the form!', error);
-                });
+                    setFormData({ name: '', email: '', mobile: '', message: '' }); // Reset form
+                } else {
+                    alert('There was an error: ' + response.data.message);
+                }
+            })
+            .catch(error => {
+                console.error('There was an error submitting the form!', error);
+            });
         }
     };
-
+    
     const getInputStyle = (field) => {
         if (!formData[field]) return null;
         return errors[field] ? { borderColor: 'red' } : { borderColor: 'green' };

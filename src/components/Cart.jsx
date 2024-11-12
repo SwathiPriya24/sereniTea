@@ -1,10 +1,12 @@
-import { Container, Row, Col, ListGroup, Button } from 'react-bootstrap';
+import { Row, Col, ListGroup, Button } from 'react-bootstrap';
 import { RiDeleteBin5Line } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 
-const Cart = ({ cart, calculateTotalPrice, removeFromCart }) => {
+const Cart = ({ cart, calculateTotalPrice, removeFromCart, clearCart }) => {
+    const totalPrice = calculateTotalPrice(); // Get the total price of the cart
+
     return (
-        < section className='cartSection'>
+        <section className='cartSection'>
             <div className='container text-center py-4 px-0'>
                 {cart.length === 0 ? (
                     <>
@@ -48,14 +50,16 @@ const Cart = ({ cart, calculateTotalPrice, removeFromCart }) => {
                             ))}
 
                             <div className='py-2 d-flex justify-content-end align-items-center'>
-                                <h5 className='totalprice pt-3 '>Total Price: Rs {calculateTotalPrice()}</h5></div>
+                                <h5 className='totalprice pt-3'>Total Price: Rs {totalPrice}</h5>
+                            </div>
                             <div>
-                                <h6 className='endline text-end'>Taxes and shipping calculated after Placing Order</h6>
+                                <h6 className='endline text-end'>Taxes and shipping calculated after placing order</h6>
                             </div>
                             <div className='d-flex justify-content-center align-items-center'>
-                            <Link to="/login">  <button className='placeorderProd  pt-2 '>
-                              Place Order
-                                </button></Link>
+                                <Link to={{ pathname: "/checkout", state: { amount: totalPrice } }}>
+                                    <button className='placeorderProd pt-2'>Place Order</button>
+                                </Link>
+                                <Button variant="warning" className='clearallProd ms-3' onClick={clearCart}>Clear All</Button>
                             </div>
                         </ListGroup>
                     </>
