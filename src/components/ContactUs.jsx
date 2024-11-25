@@ -144,9 +144,9 @@ const ContactUs = () => {
                             <div className="btnCont d-flex justify-content-center">   
                                        <button type="submit" className='submitBtn'>Submit </button>
                             </div>
-                        </Form>
-                        
+                        </Form>                
                     </div>
+
                     <div className="col-lg-6 order-lg-1">
                         <iframe
                             src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15643.214918983113!2d76.85142774021585!3d11.42178725318197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8c02f379bca31%3A0xf7b63bc2a4ce6aab!2sKotagiri%2C%20Tamil%20Nadu%20643217!5e0!3m2!1sen!2sin!4v1723445928808!5m2!1sen!2sin"

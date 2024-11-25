@@ -3,9 +3,11 @@ import { RiDeleteBin5Line } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 
 const Cart = ({ cart, calculateTotalPrice, removeFromCart, clearCart }) => {
-    const totalPrice = calculateTotalPrice(); // Get the total price of the cart
+    const totalPrice = calculateTotalPrice(); 
 
     return (
+         
+        
         <section className='cartSection'>
             <div className='container text-center py-4 px-0'>
                 {cart.length === 0 ? (

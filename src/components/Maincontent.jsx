@@ -112,7 +112,6 @@ const Maincontent = () => {
                 updatedCart.splice(existingProductIndex, 1);
             }
         }
-
         setCart(updatedCart);
         setInitialCart(updatedQuantity);
     };
@@ -121,7 +120,7 @@ const Maincontent = () => {
         return cart.reduce((total, product) => total + product.totalPrice, 0);
     };
     const clearCart = () => {
-        setCart([]); // or however your cart state is managed
+        setCart([]); 
     };
 
 
@@ -136,8 +135,6 @@ const Maincontent = () => {
                     <ShopCard
                         addToCart={addToCart}
                         removeFromCart={removeFromCart}
-
-
                         cart={cart} initialProducts={initialProducts}
                     />}
                 />

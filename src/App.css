@@ -343,6 +343,7 @@ input {
 }
 
 .logintxta:hover {
+  color: var(--secondary-color) !important;
   text-decoration: underline !important;
 }
 
@@ -807,12 +808,16 @@ input[type="password"] {
   background-color: var(--primary-color);
   color: white;
   padding: 5px 100px;
-
-
   border: none;
   border-radius: 15px;
 }
-
+.submitBtn:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 5px 100px;
+  border: none;
+  border-radius: 15px;
+}
 @keyframes zoom-in {
   0% {
     transform: scale(1);
@@ -1425,7 +1430,7 @@ button.payment:hover {
 
 .createacc {
   width: 400px !important;
-  margin-top: 120px;
+  margin-top: 110px !important;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -1437,7 +1442,7 @@ button.payment:hover {
 .adminlogin, .loginpage ,
 .adminpage, .paymentPage {
   background-image: url('./images/leafbg.jpg');
-  height: 100vh;
+  height: auto;
   width: 100%;
   color: white;
   background-size: cover;
@@ -1508,10 +1513,9 @@ button.payment:hover {
 
 .adminpageht,
 .login-container {
-  margin-top: 110px;
+  margin-top: 110px !important;
   color: var(--primary-color);
 }
-
 
 .adminhead {
   text-align: center;
@@ -1526,20 +1530,22 @@ button.payment:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-table thead {
+table thead  {
   background-color: var(--primary-color);
   color: white;
 }
 
 table th,
-table td {
+table td{
   padding: 12px;
   text-align: left;
   border: 1px solid rgb(38, 105, 42);
 }
 
-table tbody tr:nth-child(even) {
+table tbody tr{
   background-color: var(--fade-color);
+  border: 1px solid rgb(38, 105, 42);
+
 }
 
 table tbody tr:hover {
@@ -1554,14 +1560,16 @@ table td {
   color: var(--primary-color);
 }
 
-
+td.deletetable{
+  border: 0px !important;
+}
 .deleteuserbtn {
   background-color: red;
   color: white;
   border: none !important;
-  padding: 8px 12px;
+  padding: 5px ;
   border-radius: 4px;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .closeBtn svg {
@@ -1569,7 +1577,6 @@ table td {
   width: 30px !important;
   color: var(--primary-color);
 }
-
 
 /* checkoutpage */
 .checkout-page {
@@ -1639,7 +1646,6 @@ table td {
 
 .checkout-page input[type="password"] {
   -webkit-text-security: circle;
-  /* hides password text */
 }
 
 @media (max-width: 600px) {
@@ -1651,3 +1657,24 @@ table td {
     font-size: 20px;
   }
 }
+
+.adminstyle{
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+
+.adminstyle:hover{
+color: var(--secondary-color) !important;
+transform: scale(1.2); 
+font-size: 16px;
+}
+
+
+
+
+

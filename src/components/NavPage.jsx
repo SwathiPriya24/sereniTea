@@ -54,20 +54,20 @@ export default function NavPage() {
                         </Nav>
                         <span className="d-flex navCartRight">
                             <Nav.Link href="#action1" className='cart'>
-                                <Link to="/adminlogin"> <IoLockClosed style={{ height: '100%', width: 'auto' }} />
+                                <Link to="/adminlogin"> <IoLockClosed  className='adminstyle' style={{ height: '100%', width: 'auto' }} /> 
                                 </Link>
                             </Nav.Link>
 
                             <Nav.Link href="#action2" className='cart'>
                                 <Link to="/Cart">
-                                    <FaCartArrowDown style={{ height: '100%', width: 'auto' }} />
+                                    <FaCartArrowDown className='adminstyle' style={{ height: '100%', width: 'auto' }} />
                                 </Link>
                             </Nav.Link>
                             <Nav.Link href="#action3" className='cart'>
-                                <Link to='/login'> <FaUserCircle style={{ height: '100%', width: 'auto' }} /></Link>
+                                <Link to='/login'> <FaUserCircle className='adminstyle' style={{ height: '100%', width: 'auto' }} /></Link>
                             </Nav.Link>
                             <Nav.Link href="#action4" className='cart'>
-                                <Link to="/"> <FaWindowClose style={{ height: '100%', width: 'auto' }} />
+                                <Link to="/"> <FaWindowClose className='adminstyle' style={{ height: '100%', width: 'auto' }} />
                                 </Link>
                             </Nav.Link>
                             <Navbar.Toggle aria-controls="navbarScroll" />

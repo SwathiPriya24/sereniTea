@@ -78,7 +78,7 @@ const Login = () => {
                     {errors.password && <p style={{ color: 'red' }}>{errors.password}</p>}
 
                     <div className="text-center pt-4">
-                        <Link className="text-center logintxta" to="/createaccount">Don't have an account? Sign Up</Link>
+                        <Link className="text-center logintxta" to="/createaccount">Don't have an account ? Sign Up</Link>
                     </div>
 
                     <div className="py-4 d-flex justify-content-center align-items-center">

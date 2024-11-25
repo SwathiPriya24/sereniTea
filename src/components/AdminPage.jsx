@@ -36,9 +36,9 @@ const AdminPage = () => {
     };
 
     return (
-        <div className='adminpage'>
+        <div className=' adminpage'>
             <h2 className='adminpageht text-center'>User List</h2>
-            <div className='d-flex justify-content-center align-items-center'>
+            <div className='container d-flex justify-content-center align-items-center mb-4'>
                 <table className='tableadmin' border="1" cellPadding="5" cellSpacing="0">
                     <thead>
                         <tr>
@@ -55,7 +55,7 @@ const AdminPage = () => {
                                     <td>{account.id}</td>
                                     <td>{account.username}</td>
                                     <td>{account.email}</td>
-                                    <td className='d-flex justify-content-center align-items-center'>
+                                    <td className='deletetable d-flex justify-content-center align-items-center'>
                                         <button className='deleteuserbtn ' onClick={() => deleteAccount(account.id)}>Delete</button>
                                     </td>
                                 </tr>
